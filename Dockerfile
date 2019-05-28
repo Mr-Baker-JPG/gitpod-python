@@ -9,7 +9,6 @@ RUN apt-get update && apt-get install -y \
   libblas-dev \
   liblapack-dev\
   libatlas-base-dev \
-  gfortran \
   python3-pip \
   tk-dev \
   python-tk \
