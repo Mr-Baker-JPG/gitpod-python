@@ -20,6 +20,8 @@ RUN apt-get update && apt-get install -y \
   && apt-get clean && \
   rm -rf /var/lib/apt/lists/*
 
-# RUN pip install -U distribute \
-#   setuptools \
-#   pip
+RUN pyenv install 3.7.3
+RUN alias py3='/home/gitpod/.pyenv/versions/3.7.3/bin/python3.7'
+
+
+# 
