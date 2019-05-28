@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y \
   python3-matplotlib \
   pkg-config \
   libfreetype6-dev \
-  && apt-get install -y libx11-dev libxkbfile-dev libsecret-1-dev libgconf2–4 libnss3 \
+  && apt-get install -y libx11-dev libxkbfile-dev libsecret-1-dev libnss3 \
   && apt-get clean && \
   rm -rf /var/lib/apt/lists/*
 
