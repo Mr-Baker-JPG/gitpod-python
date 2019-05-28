@@ -7,6 +7,7 @@ tasks:
     command: chmod +x ./scripts/code.sh
     command: ./scripts/code.sh
     command: source ./scripts/code.sh
+    command: openIn:bottom
 github:
   prebuilds:
     # enable for the master/default branch (defaults to true)
