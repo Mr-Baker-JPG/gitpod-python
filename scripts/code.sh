@@ -1,0 +1,1 @@
+alias python='/home/gitpod/.pyenv/versions/3.7.3/bin/python3.7'
