@@ -21,7 +21,7 @@ RUN apt-get update && apt-get install -y \
   rm -rf /var/lib/apt/lists/*
 
 RUN pyenv install 3.7.3
-RUN setenv PATH $PATH:"/workspace/gitpod-python/lib"
+RUN set PATH $PATH:"/workspace/gitpod-python/lib"
 RUN alias python3='/home/gitpod/.pyenv/versions/3.7.3/bin/python3.7'
 
 
