@@ -20,6 +20,8 @@ RUN apt-get update && apt-get install -y \
   && apt-get clean && \
   rm -rf /var/lib/apt/lists/*
 
+RUN chmod +x ~/scripts/code.sh
+
 RUN pyenv install 3.7.3
 
 

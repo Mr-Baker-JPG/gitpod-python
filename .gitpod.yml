@@ -5,9 +5,9 @@ ports:
 tasks:
   - init: yarn
     command: chmod +x ./scripts/code.sh
-    command: ./scripts/code.sh
-    command: source ./scripts/code.sh
-    command: openIn:bottom
+    # command: ./scripts/code.sh
+    # command: source ./scripts/code.sh
+    # command: openIn:bottom
 github:
   prebuilds:
     # enable for the master/default branch (defaults to true)
