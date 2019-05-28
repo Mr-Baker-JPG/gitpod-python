@@ -20,6 +20,6 @@ RUN apt-get update && apt-get install -y \
   && apt-get clean && \
   rm -rf /var/lib/apt/lists/*
 
-RUN pip install -U distribute \
-  setuptools \
-  pip
+# RUN pip install -U distribute \
+#   setuptools \
+#   pip
