@@ -16,12 +16,12 @@ RUN apt-get update && apt-get install -y \
   python3-matplotlib \
   pkg-config \
   libfreetype6-dev \
+  python3.7 \
   && apt-get install -y libx11-dev libxkbfile-dev libsecret-1-dev libnss3 \
   && apt-get clean && \
   rm -rf /var/lib/apt/lists/*
 
-
 RUN pyenv install 3.7.3
 
-
+RUN echo 'alias python="/home/gitpod/.pyenv/versions/3.7.3/bin/python3.7" >> ~/.bashrc
 # 
