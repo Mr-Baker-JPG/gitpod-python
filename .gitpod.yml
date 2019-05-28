@@ -4,9 +4,9 @@ ports:
   - port: 6080
 tasks:
   - init: yarn
-    command: chmod +x ~/scripts/code.sh
-    command: ./scripts/code.sh
-    command: source ./scripts/code.sh
+    # command: chmod +x ~/scripts/code.sh
+    # command: ./scripts/code.sh
+    # command: source ./scripts/code.sh
     # command: openIn:bottom
 github:
   prebuilds:
