@@ -23,5 +23,5 @@ RUN apt-get update && apt-get install -y \
 
 RUN pyenv install 3.7.3
 
-RUN echo 'alias python="/home/gitpod/.pyenv/versions/3.7.3/bin/python3.7" >> ~/.bashrc
+RUN echo 'alias python="/home/gitpod/.pyenv/versions/3.7.3/bin/python3.7"' >> ~/.bashrc
 # 
