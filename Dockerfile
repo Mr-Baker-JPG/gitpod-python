@@ -17,10 +17,8 @@ RUN apt-get update && apt-get install -y \
   python3-matplotlib \
   pkg-config \
   libfreetype6-dev \
-  libx11-dev libxkbfile-dev libsecret-1-dev libgconf2–4 libnss3 libasound2-dev twm \
-  && \
-
-  apt-get clean && \
+  && apt-get install -y libx11-dev libxkbfile-dev libsecret-1-dev libgconf2–4 libnss3 \
+  && apt-get clean && \
   rm -rf /var/lib/apt/lists/*
 
 RUN pip install -U distribute \
